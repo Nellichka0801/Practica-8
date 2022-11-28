@@ -36,7 +36,7 @@ void PrintArray(int[,] input) {
     }
 }
 
-int[,] ArrangeItemDescendingOrder(int[,] array)
+int[,] PositionOfDigitsByReducing(int[,] array)
 {
     int temp = 0;
 
@@ -60,6 +60,6 @@ int[,] ArrangeItemDescendingOrder(int[,] array)
 int[,] array = CreateArray(4, 4);
 PrintArray(array);
 Console.WriteLine("Новый массив");
-int[,] newArray = ArrangeItemDescendingOrder(array);
+int[,] newArray = PositionOfDigitsByReducing(array);
 PrintArray(newArray);
 
