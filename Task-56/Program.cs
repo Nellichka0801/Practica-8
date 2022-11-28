@@ -37,7 +37,7 @@ Console.WriteLine();
 }
 }
 
-int ArithmeticMeanOfColumns (int[,] array)
+int SmallestSumOfRows (int[,] array)
 {
     int stringMinSum = 0;
     int sum = 0;
@@ -63,6 +63,6 @@ int ArithmeticMeanOfColumns (int[,] array)
 var array = CreateArray(4, 4);
 PrintArray(array);
 System.Console.WriteLine();
-System.Console.WriteLine("Наименьшая сумма элементов в строке № " + ArithmeticMeanOfColumns (array));
+System.Console.WriteLine("Наименьшая сумма элементов в строке № " + SmallestSumOfRows (array));
 
 
